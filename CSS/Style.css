@@ -1,0 +1,36 @@
+#navbar_terapia {
+  box-shadow: 4px 4px 4px rgba(70, 69, 69, 0.4);
+}
+
+#navbar_terapia a:hover {
+  color: #aa2edb;
+}
+#navbar_terapia .nav-item {
+  margin: auto 4px;
+  text-decoration-color: #aa2edb;
+}
+#navbar_terapia a {
+  padding-left: 12px;
+  padding-right: 2px;
+}
+
+#navbar_terapia {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #aa2edb;
+
+  margin-top: 10px;
+}
+
+h2 {
+  color: #7a2f96;
+}
