@@ -34,3 +34,7 @@ h1 {
 h2 {
   color: #7a2f96;
 }
+
+.img__servicios {
+  max-width: 100%;
+}
