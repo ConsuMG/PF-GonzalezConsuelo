@@ -26,6 +26,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -49,4 +50,46 @@ h2 {
 
 .card-img-top {
   max-width: 100%;
+}
+
+.btn-primary {
+  background-color: #7a2f96;
+  border-color: #7a2f96;
+  transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s,
+    border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.btn {
+  background-color: transparent;
+  border-color: #7a2f96;
+}
+
+.btn a:hover {
+  color: #aa2edb;
+}
+
+#button--enviar {
+  background-color: transparent;
+  border-color: #7a2f96;
+  color: #7a2f96;
+}
+
+#button--enviar :hover {
+  border-color: #7a2f96;
+  color: #7a2f96;
+}
+
+footer {
+  box-sizing: border-box;
+  background-color: #ac98fd;
+  color: white;
+  margin-top: 5rem;
+}
+
+.btn-primaryn :hover {
+  background-color: #aa2edb;
+}
+
+.fab {
+  color: white;
 }
