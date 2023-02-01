@@ -4,14 +4,232 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- My Styles -->
     <link
       rel="stylesheet"
       href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"
     />
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../CSS/Style.css" />
     <title>Terapia en Linea</title>
   </head>
   <body>
+    <header>
+      <!-- inicio encabezado -->
+      <div>
+        <!-- inicio nav -->
+        <nav
+          class="navbar navbar-expand-sm navbar-light navbar-nav-scroll"
+          style="background-color: s#e3f2fd"
+          id="navbar_terapia"
+        >
+          <div class="container">
+            <div>
+              <a class="navbar-brand" href="../index.html"
+                ><img
+                  src="IMG/Logo_violeta.svg"
+                  height="40"
+                  class="d-inline-block align-text-top"
+              /></a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-2 active"
+                    aria-current="page"
+                    href="Nosotros.html"
+                  >
+                    Nosotros</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="Como Funciona.html"
+                    >Como Funciona</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="Pages/Blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="Terapia On Line.html"
+                    >Terapaia On Line</a
+                  >
+                </li>
+
+                <!-- inicio Sesión (PROXIMAMENTE) -->
+                <div>
+                  <button class="btn btn-outline-secondary" type="">
+                    Iniciar Sesion
+                  </button>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Fin Sesión (PROXIMAMENTE) -->
+      <!-- fin nav -->
+    </header>
     <h1>Terapia On Line</h1>
+    <!-- Inicio formulario -->
+    <div class="conteiner">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-lg-6 bg-white shadow p-3">
+          <div class="form w-100 pb-2">
+            <h4 class="display-3--title mb-5">Formulario de Contacto</h4>
+            <form action="" class="row">
+              <div class="col-lg-6 col-md-6 mb-3">
+                <input
+                  type="text"
+                  name="firstName"
+                  id="firstName"
+                  class="form-control shadow form-control-lg"
+                  placeholder="Nombre"
+                />
+              </div>
+              <div class="col-lg-6 col-md-6 mb-3">
+                <input
+                  type="text"
+                  name="lastName"
+                  id="lastName"
+                  class="form-control shadow form-control-lg"
+                  placeholder="Apellido"
+                />
+              </div>
+              <div class="col-lg-6 col-md-6 mb-3">
+                <input
+                  type="text"
+                  name="Age"
+                  id="Age"
+                  class="form-control shadow form-control-lg"
+                  placeholder="Edad"
+                />
+              </div>
+              <div class="col-lg-6 col-md-6 mb-3">
+                <input
+                  type="text"
+                  name="Nacionalidad"
+                  id="Nacionalidad"
+                  class="form-control shadow form-control-lg"
+                  placeholder="Nacionalidad"
+                />
+              </div>
+
+              <div class="input-group col-lg-12 mb-3">
+                <button
+                  class="btn btn-outline-secondary dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  +54 Argentina
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> +uruguay</a></li>
+                  <li><a class="dropdown-item" href="#">+chile</a></li>
+                  <li><a class="dropdown-item" href="#"> +España</a></li>
+                  <li><a class="dropdown-item" href="#">otro</a></li>
+                </ul>
+                <input
+                  type="text"
+                  class="form-control shadow form-control-lg"
+                  placeholder="Telefono"
+                  aria-label="Text input with dropdown button"
+                />
+              </div>
+
+              <div class="col-lg-12 mb-3">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control shadow form-control-lg"
+                  placeholder="Correo electrónico"
+                />
+              </div>
+              <div class="col-lg-12 mb-3">
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="8"
+                  class="form-control shadow form-control-lg"
+                  placeholder="Dejanos tu mensaje y pronto nos pondremos en contacto"
+                ></textarea>
+              </div>
+              <div class="text-center d-grid mt-1">
+                <button
+                  class="btn btn-primary rounded-pill pt-3 pb-3"
+                  type="button"
+                  id="button--enviar"
+                >
+                  Enviar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fin formulario -->
+
+    <!-- Inicio Footer -->
+
+    <footer class="conteiner p-3 rounded">
+      <div class="d-lg-flex align-items-center justify-content-between">
+        <div>
+          <span>
+            <a href="../index.html">
+              <img src="../IMG/Logo_violeta.svg" alt="logo_sitio" />
+            </a>
+          </span>
+        </div>
+        <div>
+          <p class="fs-5">Buscanos en las redes</p>
+        </div>
+
+        <div>
+          <ul class="d-flex gap-3 list-unstyled fs-5">
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Fin Footer -->
+
     <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
   </body>
 </html>
