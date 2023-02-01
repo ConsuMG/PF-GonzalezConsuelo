@@ -50,3 +50,14 @@ h2 {
 .card-img-top {
   max-width: 100%;
 }
+
+.btn-primary {
+  background-color: #7a2f96;
+  border-color: #7a2f96;
+  transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s,
+    border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.btn-primaryn :hover {
+  background-color: #aa2edb;
+}
