@@ -13,6 +13,9 @@
   padding-left: 12px;
   padding-right: 2px;
 }
+#nuevo {
+  border: navy;
+}
 
 #navbar_terapia {
   display: flex;
@@ -36,5 +39,14 @@ h2 {
 }
 
 .img__servicios {
+  max-width: 100%;
+}
+
+.card {
+  height: 100%;
+  justify-content: space-around;
+}
+
+.card-img-top {
   max-width: 100%;
 }
