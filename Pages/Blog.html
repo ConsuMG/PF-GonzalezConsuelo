@@ -31,7 +31,7 @@
       <div>
         <!-- inicio nav -->
         <nav
-          class="navbar navbar-expand-sm navbar-light navbar-nav-scroll"
+          class="navbar fixed-top navbar-expand-sm navbar-light navbar-nav-scroll"
           style="background-color: s#e3f2fd"
           id="navbar_terapia"
         >
@@ -99,14 +99,53 @@
 
     <!-- Inicio Blog-->
     <div class="container">
-      <div class="text-center my-5">
+      <div class="text-center px my-10" id="inicioBlog">
         <h1>Blog</h1>
         <hr />
       </div>
+      <!-- Incio botonera -->
+      <div
+        class="d-flex align-items-center flex-column flex-lg-row my-5"
+        id="botonera"
+      >
+        <button
+          style="margin: 10px"
+          type="button"
+          class="btn btn-outline-secondary"
+        >
+          Todo
+        </button>
+        <button
+          style="margin: 10px"
+          type="button"
+          class="btn btn-outline-secondary"
+        >
+          Terapia de pareja
+        </button>
+
+        <button
+          style="margin: 10px"
+          type="button"
+          class="btn btn-outline-secondary"
+        >
+          Depresión
+        </button>
+
+        <button
+          style="margin: 10px"
+          type="button"
+          class="btn btn-outline-secondary"
+        >
+          Familia
+        </button>
+      </div>
+
+      <!-- fin botonera-->
+
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-4" id="cardBlog">
           <div class="card mb-5 shadow-sm">
-            <img src="../IMG/img_4.jpg" alt="" class="img-fluid" />
+            <img src="../IMG/img_4.jpg" alt="" class="img-fluid imgBlog" />
             <div class="card-body">
               <div class="card-title">
                 <h2>Depresion</h2>
@@ -125,7 +164,7 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4" id="cardBlog">
           <div class="card mb-5 shadow-sm">
-            <img src="../IMG/img_5.png" alt="" class="img-fluid" />
+            <img src="../IMG/img_5.png" alt="" class="img-fluid imgBlog" />
             <div class="card-body">
               <div class="card-title">
                 <h2>Ansiedad</h2>
@@ -144,7 +183,7 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4" id="cardBlog">
           <div class="card mb-5 shadow-sm">
-            <img src="../IMG/img_7.jpg" alt="" class="img-fluid" />
+            <img src="../IMG/img_7.jpg" alt="" class="img-fluid imgBlog" />
             <div class="card-body">
               <div class="card-title">
                 <h2>Vinculos</h2>
@@ -163,7 +202,7 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4" id="cardBlog">
           <div class="card mb-5 shadow-sm">
-            <img src="../IMG/img_4.jpg" alt="" class="img-fluid" />
+            <img src="../IMG/Img_1.jpg" alt="" class="card-img-top" />
             <div class="card-body">
               <div class="card-title">
                 <h2>Lorem ipsum dolor sit amet.</h2>
@@ -182,7 +221,7 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4" id="cardBlog">
           <div class="card mb-5 shadow-sm">
-            <img src="../imgs/blog/img5.jpg" alt="" class="img-fluid" />
+            <img src="../IMG/img_6.jpg" alt="" class="img-fluid" />
             <div class="card-body">
               <div class="card-title">
                 <h2>Lorem ipsum dolor sit amet.</h2>
@@ -221,6 +260,15 @@
       </div>
     </div>
     <!-- Fin blog -->
+    <div>
+      <button
+        style="margin: 10px"
+        type="button"
+        class="btn btn-outline-secondary"
+      >
+        Ver Profesionales
+      </button>
+    </div>
 
     <!-- Inicio Footer -->
 
