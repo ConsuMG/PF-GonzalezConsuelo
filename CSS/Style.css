@@ -1,33 +1,9 @@
-#navbar_terapia {
-  box-shadow: 4px 4px 4px rgba(70, 69, 69, 0.4);
-}
-
-#navbar_terapia a:hover {
-  color: #aa2edb;
-}
-#navbar_terapia .nav-item {
-  margin: auto 4px;
-  text-decoration-color: #aa2edb;
-}
-#navbar_terapia a {
-  padding-left: 12px;
-  padding-right: 2px;
-}
-
-#navbar_terapia {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
 
 h1 {
   color: #aa2edb;
-
   margin-top: 5rem;
 }
 
@@ -35,53 +11,61 @@ h2 {
   color: #7a2f96;
 }
 
-.img__servicios {
-  max-width: 100%;
-}
-
-.card__servicios {
-  height: 100%;
+#navbar_terapia {
+  display: flex;
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 4px 4px 4px rgba(70, 69, 69, 0.4);
 }
-
-.card-footer {
-  background-color: #c38fd6;
-  justify-content: end;
-  color: white;
-  margin-top: 5px;
+#navbar_terapia .nav-item {
+  margin: auto 4px;
+  text-decoration-color: #aa2edb;
 }
-
-.btn-primary {
-  background-color: #7a2f96;
-  border-color: #7a2f96;
-  transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s,
-    border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+#navbar_terapia .nav-item a {
+  padding-left: 12px;
+  padding-right: 2px;
+}
+#navbar_terapia .nav-item a:hover {
+  color: #aa2edb;
 }
 
 .btn {
   background-color: transparent;
   border-color: #7a2f96;
 }
-
 .btn:hover {
   background-color: #aa2edb;
 }
-
-.btn a:hover {
+.btn:hovera {
   color: #aa2edb;
 }
 
+.btn-primary {
+  background-color: #7a2f96;
+  border-color: #7a2f96;
+  transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.btn-primary:hover {
+  background-color: #aa2edb;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #aa2edb;
+}
+
+/*Boton "Enviar" Formulario de Contacto */
 #button--enviar {
   background-color: transparent;
   border-color: #7a2f96;
   color: #7a2f96;
 }
-
 #button--enviar:hover {
   background-color: #7a2f96;
   color: white;
 }
 
+/* Contenedor Footer */
 footer {
   box-sizing: border-box;
   background-color: #ac98fd;
@@ -89,48 +73,53 @@ footer {
   margin-top: 5rem;
 }
 
-.btn-primaryn :hover {
-  background-color: #aa2edb;
-}
-
+/* Iconos Footer */
 .fab {
   color: white;
 }
 
+/*Formulario de Contacto */
+#FormularioContacto {
+  margin-top: 2rem;
+}
+
+/*Preguntasy Respuestas */
 .accordion {
   border-color: rgb(2, 2, 48);
 }
-
-.accordion-header {
+.accordion header {
   border: #aa2edb;
   border-color: #aa2edb;
 }
 
 .accordion-button:not(.collapsed) {
-  color: rgb(2, 2, 48);
+  color: rgb(177, 13, 199);
   background-color: #d6cdda;
-  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
-    var(--bs-accordion-border-color);
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
 
-#cardBlog {
-  margin-bottom: 2rem;
+/*Index */
+#inicioProfesionales {
+  margin-top: 2rem;
 }
 
 .Img-bienvenida {
   margin-top: 5rem;
 }
 
-#inicioProfesionales {
-  margin-top: 2rem;
+/*Nuestros Servicios */
+.card__servicios {
+  height: 100%;
+  width: 100%;
 }
 
-#FormularioContacto {
-  margin-top: 2rem;
+.img__servicios {
+  max-width: 100%;
 }
 
-@media (min-width: 992px) {
-  .alto {
-    height: 100vh;
-  }
+/*Blog*/
+#cardBlog {
+  margin-bottom: 2rem;
 }
+
+/*# sourceMappingURL=style.css.map */

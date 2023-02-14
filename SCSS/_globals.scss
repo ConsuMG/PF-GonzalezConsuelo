@@ -1,0 +1,15 @@
+$primary-color: #aa2edb;
+$secondary-color: #7a2f96;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: $primary-color;
+  margin-top: 5rem;
+}
+
+h2 {
+  color: $secondary-color;
+}

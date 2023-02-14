@@ -1,0 +1,21 @@
+/*Formulario de Contacto */
+#FormularioContacto {
+  margin-top: 2rem;
+}
+
+/*Preguntasy Respuestas */
+.accordion {
+  border-color: rgb(2, 2, 48);
+
+  header {
+    border: #aa2edb;
+    border-color: #aa2edb;
+  }
+}
+
+.accordion-button:not(.collapsed) {
+  color: rgb(177, 13, 199);
+  background-color: #d6cdda;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
+    var(--bs-accordion-border-color);
+}

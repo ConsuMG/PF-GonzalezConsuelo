@@ -1,0 +1,42 @@
+.btn {
+  background-color: transparent;
+  border-color: $secondary-color;
+
+  &:hover {
+    background-color: $primary-color;
+
+    &a {
+      color: $primary-color;
+    }
+  }
+}
+
+.btn-primary {
+  background-color: #7a2f96;
+  border-color: #7a2f96;
+  transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s,
+    border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+
+  &:hover {
+    background-color: $primary-color;
+  }
+}
+
+.btn-outline-secondary {
+  &:hover {
+    background-color: $primary-color;
+  }
+}
+
+/*Boton "Enviar" Formulario de Contacto */
+
+#button--enviar {
+  background-color: transparent;
+  border-color: $secondary-color;
+  color: $secondary-color;
+
+  &:hover {
+    background-color: $secondary-color;
+    color: white;
+  }
+}
