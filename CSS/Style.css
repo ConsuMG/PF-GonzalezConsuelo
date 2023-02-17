@@ -11,6 +11,8 @@ h2 {
   color: #7a2f96;
 }
 
+/*NavBar */
+
 #navbar_terapia {
   display: flex;
   width: 100%;
@@ -30,6 +32,8 @@ h2 {
   color: #aa2edb;
 }
 
+/*Botones */
+
 .btn {
   background-color: transparent;
   border-color: #7a2f96;
@@ -44,7 +48,8 @@ h2 {
 .btn-primary {
   background-color: #7a2f96;
   border-color: #7a2f96;
-  transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s,
+    border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
 .btn-primary:hover {
   background-color: #aa2edb;
@@ -88,14 +93,15 @@ footer {
   border-color: rgb(2, 2, 48);
 }
 .accordion header {
-  border: #aa2edb;
-  border-color: #aa2edb;
+  border: #7a2f96;
+  border-color: #7a2f96;
 }
 
 .accordion-button:not(.collapsed) {
-  color: rgb(177, 13, 199);
+  color: #aa2edb;
   background-color: #d6cdda;
-  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
+    var(--bs-accordion-border-color);
 }
 
 /*Index */
@@ -120,6 +126,14 @@ footer {
 /*Blog*/
 #cardBlog {
   margin-bottom: 2rem;
+}
+
+/*Imagen Profesionales */
+
+#ImgProfesionales {
+  width: 200px;
+  height: 200px;
+  margin-left: 75px;
 }
 
 /*# sourceMappingURL=style.css.map */

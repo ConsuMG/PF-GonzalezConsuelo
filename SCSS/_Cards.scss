@@ -24,3 +24,13 @@
 #cardBlog {
   margin-bottom: 2rem;
 }
+
+@mixin imagenProfesionales($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+#ImgProfesionales {
+  @include imagenProfesionales(200px, 200px);
+  margin-left: 75px;
+}
