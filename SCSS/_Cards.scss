@@ -1,6 +1,6 @@
 /*Index */
 
-#inicioProfesionales {
+.inicioProfesionales {
   margin-top: 2rem;
 }
 
@@ -13,6 +13,7 @@
 .card__servicios {
   height: 100%;
   width: 100%;
+  text-align: justify;
 }
 
 .img__servicios {
@@ -21,7 +22,7 @@
 
 /*Blog*/
 
-#cardBlog {
+.cardBlog {
   margin-bottom: 2rem;
 }
 
@@ -32,5 +33,12 @@
 
 #ImgProfesionales {
   @include imagenProfesionales(200px, 200px);
-  margin-left: 75px;
+
+  margin-top: 5px;
+}
+
+/* Nuestros profesionales */
+
+.card-text {
+  text-align: justify;
 }
