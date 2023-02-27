@@ -80,6 +80,11 @@ footer {
 /* Iconos Footer */
 .fab {
   color: white;
+  margin-right: 1rem;
+}
+
+.LogoFooter {
+  height: 45px;
 }
 
 /*Formulario de Contacto */
@@ -136,6 +141,19 @@ footer {
 /* Nuestros profesionales */
 .card-text {
   text-align: justify;
+}
+
+/* crear margen izquierdo en footer*/
+@media screen and (min-width: 996px) {
+  .LogoFooter {
+    margin-left: 2rem;
+  }
+}
+/* Formulario de Contacto */
+@media screen and (max-width: 320px) {
+  .FormularioContacto {
+    width: 75%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

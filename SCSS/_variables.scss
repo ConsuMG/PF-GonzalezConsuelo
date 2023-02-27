@@ -1,0 +1,14 @@
+/* crear margen izquierdo en footer*/
+@media screen and (min-width: 996px) {
+  .LogoFooter {
+    margin-left: 2rem;
+  }
+}
+
+/* Formulario de Contacto */
+
+@media screen and (max-width: 320px) {
+  .FormularioContacto {
+    width: 75%;
+  }
+}
