@@ -165,14 +165,24 @@
               </div>
 
               <div class="input-group col-lg-12 mb-3">
-                <button
-                  class="btn btn-outline-secondary dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  +54 Argentina
-                </button>
+                <form action="#">
+                  <label for="lang"></label>
+
+                  <select
+                    name="Telefono"
+                    id="lang"
+                    class="btn btn-outline-secondary button--formualrio"
+                    type="button"
+                    aria-expanded="false"
+                  >
+                    <option value="select">(+54) Argentina</option>
+
+                    <option value="chile">(+56) Chile</option>
+                    <option value="España">(+34) España</option>
+                    <option value="Uruguay">(+598) Uruguay</option>
+                  </select>
+                </form>
+
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#"> +uruguay</a></li>
                   <li><a class="dropdown-item" href="#">+chile</a></li>
@@ -361,11 +371,11 @@
           </span>
         </div>
         <div>
-          <p class="fs-5">Buscanos en las redes</p>
+          <p class="fs-5 mt-3">Buscanos en las redes</p>
         </div>
 
         <div>
-          <ul class="d-flex gap-3 list-unstyled fs-5">
+          <ul class="d-flex gap-3 list-unstyled fs-5 mt-3">
             <li>
               <a href="#"><i class="fab fa-facebook"></i></a>
             </li>

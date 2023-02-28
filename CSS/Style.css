@@ -67,6 +67,19 @@ h2 {
 .button--enviar:hover {
   background-color: #7a2f96;
   color: white;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.button--formualrio {
+  background-color: transparent;
+  border-color: #7a2f96;
+  color: #7a2f96;
+}
+.button--formualrio:hover {
+  background-color: #7a2f96;
+  color: white;
 }
 
 /* Contenedor Footer */
@@ -143,10 +156,20 @@ footer {
   text-align: justify;
 }
 
-/* crear margen izquierdo en footer*/
+/* Modificaciones footer*/
 @media screen and (min-width: 996px) {
   .LogoFooter {
     margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fs-5 {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .LogoFooter {
+    height: 25px;
   }
 }
 /* Formulario de Contacto */

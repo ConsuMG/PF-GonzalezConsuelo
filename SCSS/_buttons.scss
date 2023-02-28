@@ -38,5 +38,18 @@
   &:hover {
     background-color: $secondary-color;
     color: white;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+  }
+}
+.button--formualrio {
+  background-color: transparent;
+  border-color: $secondary-color;
+  color: $secondary-color;
+  &:hover {
+    background-color: $secondary-color;
+    color: white;
   }
 }

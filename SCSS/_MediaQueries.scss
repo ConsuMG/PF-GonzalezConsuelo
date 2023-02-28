@@ -1,7 +1,19 @@
-/* crear margen izquierdo en footer*/
+/* Modificaciones footer*/
 @media screen and (min-width: 996px) {
   .LogoFooter {
     margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fs-5 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .LogoFooter {
+    height: 25px;
   }
 }
 
